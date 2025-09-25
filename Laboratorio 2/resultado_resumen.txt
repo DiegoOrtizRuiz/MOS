@@ -1,0 +1,7 @@
+Valor total transportado (USD): 179605.0
+Hercules-1: peso=28.00000000000001, volumen=22.000000000000007
+Hercules-2: peso=32.0, volumen=26.0
+Galaxy-1: peso=44.99999999999999, volumen=37.8
+Galaxy-2: peso=48.0, volumen=42.0
+Antonov-1: peso=65.0, volumen=41.900000000000006
+Antonov-2: peso=70.0, volumen=54.0
