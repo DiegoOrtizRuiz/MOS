@@ -1,0 +1,66 @@
+{
+    "resources": [
+        {
+            "name": "Alimentos_Basicos",
+            "value_usd": 250,
+            "stock_ton": 45.0,
+            "weight_ton": 1.0,
+            "volume_m3": 0.8
+        },
+        {
+            "name": "Medicinas",
+            "value_usd": 800,
+            "stock_ton": 12.0,
+            "weight_ton": 1.0,
+            "volume_m3": 0.4
+        }
+    ],
+    "planes": [
+        {
+            "name": "Hercules-1",
+            "weight_capacity": 28,
+            "volume_capacity": 22
+        },
+        {
+            "name": "Galaxy-1",
+            "weight_capacity": 45,
+            "volume_capacity": 38
+        }
+    ],
+    "compatibility_rules": [
+        {
+            "resource1": "Equipos_Medicos",
+            "resource2": "Agua_Potable",
+            "rule": "incompatible"
+        },
+        {
+            "resource1": "Medicinas",
+            "resource2": "Medicamentos_Especiales",
+            "rule": "together"
+        }
+    ],
+    "security_rules": [
+        {
+            "resource": "Medicinas",
+            "plane": "Hercules-1",
+            "allowed": false
+        },
+        {
+            "resource": "Generadores",
+            "plane": "Antonov-1",
+            "allowed": true
+        }
+    ],
+    "divisibility_rules": {
+        "Alimentos_Basicos": true,
+        "Medicinas": true,
+        "Equipos_Medicos": false,
+        "Agua_Potable": true,
+        "Mantas": false,
+        "Generadores": false,
+        "Tiendas_Campana": false,
+        "Medicamentos_Especiales": true,
+        "Equipos_Comunicacion": false,
+        "Material_Construccion": true
+    }
+}

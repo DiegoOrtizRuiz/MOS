@@ -1,3 +1,0 @@
-Most limiting plane: Hercules-1
-Original objective: 179605.0
-Modified (+20% capacity) objective: 180601.0
